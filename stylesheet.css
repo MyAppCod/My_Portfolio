@@ -7,36 +7,41 @@
   }
 
   body {
-    display: block;
-    background-image: linear-gradient(rgb(229, 224, 243), rgb(202, 239, 221));
+    display: grid;
+    background: radial-gradient(rgba(194, 178, 239, 0.3), rgba(189, 240, 231, 0.6));
     background-size: cover;
     height: 100hv;
-    margin: 0 4rem;
+    margin: 0;
     padding: 0;
-    justify-content: left;
   }
 
-  .headline {
-    display: block;
+header {
+    display: grid;
+    font-size: xx-large;
     text-align: center;
     text-decoration: underline;
   }
 
+  .websites p {
+    display: grid;
+    margin-left: 2rem;
+    font-size: x-large;
+  }
+
+  a {
+    margin-left: 3.5rem;
+  }
+
   .thanksnote {
-    display: block;
+    display: grid;
     text-align: center;
-    padding-top: 2rem;
   }
 
   footer {
-    display: block;
-    justify-content: center;
+    display: grid;
     text-align: center;
     color: gray;
     font-size: xx-small;
     padding: 0;
   }
 
-  a {
-    margin-left: 2rem;
-  }
